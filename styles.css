@@ -1,0 +1,57 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(208, 30, 158);
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(11, 11, 11);
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Медиа-запрос для адаптивного дизайна */
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
